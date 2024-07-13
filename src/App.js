@@ -20,7 +20,7 @@ export default class App extends React.Component {
             <div className="game">
                 <div className="game-info">
                     <div><Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src="holder.js/100px180"/>
+                        <Card.Img variant="top" src="https://picsum.photos/300/200" />
                         <Card.Body>
                             <Card.Title>Biryani</Card.Title>
                             <Card.Text>
@@ -28,10 +28,13 @@ export default class App extends React.Component {
                                 bulk of the card's content.
                             </Card.Text>
                         </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">*****</small>
+                        </Card.Footer>
                     </Card></div>
 
                     <div><Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src="holder.js/100px180"/>
+                        <Card.Img variant="top" src="https://picsum.photos/300/200"/>
                         <Card.Body>
                             <Card.Title>Grill Chicken</Card.Title>
                             <Card.Text>
@@ -39,10 +42,13 @@ export default class App extends React.Component {
                                 bulk of the card's content.
                             </Card.Text>
                         </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">****</small>
+                        </Card.Footer>
                     </Card></div>
 
                     <div><Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src="holder.js/100px180"/>
+                        <Card.Img variant="top" src="https://picsum.photos/300/200"/>
                         <Card.Body>
                             <Card.Title>Grill Beef</Card.Title>
                             <Card.Text>
@@ -50,6 +56,9 @@ export default class App extends React.Component {
                                 bulk of the card's content.
                             </Card.Text>
                         </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">***</small>
+                        </Card.Footer>
                     </Card></div>
 
                 </div>
