@@ -34,7 +34,7 @@ export default class App extends React.Component {
                     </Card></div>
 
                     <div><Card style={{width: '18rem'}}>
-                        <img src={require('./image/paella.jpg')}/>
+                        <img src={require('./image/grill.jpg')} width={350} height={250} alt='Grill' />
                         <Card.Body>
                             <Card.Title>Grill Chicken</Card.Title>
                             <Card.Text>
