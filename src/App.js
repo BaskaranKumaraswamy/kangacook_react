@@ -20,7 +20,7 @@ export default class App extends React.Component {
             <div className="game">
                 <div className="game-info">
                     <div><Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src="https://picsum.photos/300/200" />
+                        <img src={require('./image/paella.jpg')}/>
                         <Card.Body>
                             <Card.Title>Biryani</Card.Title>
                             <Card.Text>
@@ -34,7 +34,7 @@ export default class App extends React.Component {
                     </Card></div>
 
                     <div><Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src="https://picsum.photos/300/200"/>
+                        <img src={require('./image/paella.jpg')}/>
                         <Card.Body>
                             <Card.Title>Grill Chicken</Card.Title>
                             <Card.Text>
@@ -48,7 +48,7 @@ export default class App extends React.Component {
                     </Card></div>
 
                     <div><Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src="https://picsum.photos/300/200"/>
+                        <img src={require('./image/paella.jpg')}/>
                         <Card.Body>
                             <Card.Title>Grill Beef</Card.Title>
                             <Card.Text>
